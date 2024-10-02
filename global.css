@@ -5,20 +5,33 @@
 }
 
 :root {
-  main-color-red: #E3646E;
-  main-color-purple: #BB72E9;
-  main-color-blue: #3996DB;
-  main-color-green: #82BC4F;
-  main-color-yellow: #EABD5F;
+  --main-color-red: #E3646E;
+  --main-color-purple: #BB72E9;
+  --main-color-blue: #3996DB;
+  --main-color-green: #82BC4F;
+  --main-color-yellow: #EABD5F;
 
-  base-color-gray100: #0D0E11;
-  base-color-gray200: #16181D;
-  base-color-gray300: #292C34;
-  base-color-gray400: #878EA1;
-  base-color-gray500: #C0C4CE;
-  base-color-gray600: #E2E4E9;
+  --base-color-gray100: #0D0E11;
+  --base-color-gray200: #16181D;
+  --base-color-gray300: #292C34;
+  --base-color-gray400: #878EA1;
+  --base-color-gray500: #C0C4CE;
+  --base-color-gray600: #E2E4E9;
+
+    --font-asap: "Asap", sans-serif;
+    --title-lg: 900 56px/120% var(--font-asap);
+    --title-md: 900 24px/120% var(--font-asap);
+    --title-sm: 900 16px/1120% var(--font-asap);
+
+    --font-inconsolata: "Inconsolata", monospace;
+    --text-md: 400 16px/140% var(--font-inconsolata);
+    --text-sm: 400 14px/140% var(--font-inconsolata);
+
+    --font-maven: "Maven Pro", sans-serif;
+    --text-md-maven: 400 16px/140% var(--font-maven);
+    --text-sm-maven: 400 14px/140% var(--font-maven);
+
+
+  
 }
 
-.color {
-  background-color: #000000;
-}

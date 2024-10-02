@@ -1,0 +1,57 @@
+.bottom {
+  background: url(./assets/Background_Intro.png);
+  padding: 100px ;
+}
+
+.picture {
+   display: flex;
+   justify-content: center;
+   gap: 8px;
+}
+
+.card {
+  display: block;
+  text-align: center;
+}
+
+.name {
+  color: var(--base-color-gray500);
+  font: var(--title-md);
+  padding: 20px 0px 10px 0px;
+}
+
+strong {
+  color: var(--main-color-red);
+  font: var(--title-md);
+}
+
+.titulo {
+  color: var(--base-color-gray600);
+  font: var(--title-lg);
+  padding: 10px;
+}
+
+.text {
+  color: var(--base-color-gray400);
+  //font: var(--title-sm);
+  padding: 15px;
+}
+
+.section {
+  display: flex;
+  padding: 40px;
+  justify-content: center;
+  padding: 10px 10px 10px 10px;
+ 
+}
+
+.logo {
+  background: var(--base-color-gray300);
+  padding: 10px 60px 10px 10px;
+  flex-direction: row;
+  gap: 20px;
+  border-radius: 999px;
+  justify-content: space-between;
+  
+}
+
