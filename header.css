@@ -42,16 +42,33 @@ strong {
   padding: 40px;
   justify-content: center;
   padding: 10px 10px 10px 10px;
+  gap: 10px;
  
 }
 
 .logo {
+  display: flex;
   background: var(--base-color-gray300);
-  padding: 10px 60px 10px 10px;
-  flex-direction: row;
+  padding: 10px 20px ;
+
   gap: 20px;
   border-radius: 999px;
-  justify-content: space-between;
+  justify-content: center;
+  color: var(--base-color-gray500);
   
 }
 
+.vector {
+  padding: 94px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.titulo2 {
+  color: var(--base-color-gray600);
+  font: var(--title-lg);
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
